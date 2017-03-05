@@ -3,6 +3,7 @@
 
 # launch gazebo simulator
  roslaunch mybot_gazebo mybot_world.launch
+ ![gazebo](https://cloud.githubusercontent.com/assets/18408973/23586218/c07ec580-015e-11e7-9097-dd4df9bb0cb6.png)
 # launch RViz 
  roslaunch mybot_description mybot_rviz.launch
  fix frame to odometry frame
@@ -12,4 +13,4 @@
  rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ## move automatically 
  rostopic pub /cmd_vel geometry_msgs/Twist
- circle mode: set velocity linear.x = 0.3 and angular.z = 0.1
+ circle mode: set velocity linear.x = 0.2 and angular.z = 0.1
