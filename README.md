@@ -1,4 +1,5 @@
 # Dependencies
+ catkin
  ros-teleop
 
 # launch Gazebo simulator
