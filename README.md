@@ -1,8 +1,8 @@
 # Dependencies
- catkin
- mybot_control
- mybot_description
- mybot_gazebo
+ 1. catkin
+ 2. mybot_control
+ 3. mybot_description - contains URDF of mybot
+ 4. mybot_gazebo
 
 # launch Gazebo simulator
  roslaunch mybot_gazebo mybot_world.launch
