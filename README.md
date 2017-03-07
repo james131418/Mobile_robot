@@ -1,6 +1,8 @@
 # Dependencies
  catkin
- ros-teleop
+ mybot_control
+ mybot_description
+ mybot_gazebo
 
 # launch Gazebo simulator
  roslaunch mybot_gazebo mybot_world.launch
